@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>变量的语法扩展</title>
+    <script>
+
+        //1、变量的更新
+        var myName = 'Liu';
+        console.log(myName);
+        myName = "小小";
+        console.log(myName);
+
+        //2、同时声明多个变量
+        var age = 18, address = '火影村', gz = 2000;
+
+        // 3，声明变量的特殊情况
+        // 3.1只声明，不赋值。结果是：undefined未定义的
+        var sex;
+        console.log(sex);   // undefined
+
+        // 3.2 不声明、不赋值：报错，后边的代码不再执行
+        //console.log(tel);
+
+        //3.3 不声明，直接赋值使用。不推荐使用
+        qq = 111;
+        console.log(11);
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
